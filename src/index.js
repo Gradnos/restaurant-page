@@ -1,4 +1,8 @@
 import './style.css';
 
+console.log("a");
 
-console.log("asdasd");
+const content = document.querySelector("#content");
+console.log(content);
+
+content.innerText = "DURR BURGER";

@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'MainFont';
+    src: url(./Main-font.otf) format('otf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+*{
+    font-family: 'MainFont';
+}
