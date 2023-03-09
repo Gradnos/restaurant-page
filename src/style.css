@@ -1,10 +1,50 @@
 @font-face {
     font-family: 'MainFont';
-    src: url(./Main-font.otf) format('otf');
+    src: url(./main-font.otf) format('opentype');
     font-weight: 600;
-    font-style: normal;
 }
 
-*{
-    font-family: 'MainFont';
+body,html{
+    margin: 0;
+    padding: 0;
 }
+
+
+header{
+    padding: 2rem;
+    margin: 0;
+    height: 500px;
+    background: url("./durr-burger-image.webp");
+    background-position: center;
+}
+
+.logo{
+    width: calc(1.2rem + 10vw);
+    height: calc(1.2rem + 10vw);
+    background: url('./icon.png');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.logo-banner{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: radial-gradient(circle, rgba(42,255,252,1) 0%, rgba(0,138,255,1) 64%);
+    padding: 4rem 2rem;
+}
+
+h1{
+    position: relative;
+    top: calc(calc(1rem + 12vw) * 0.1);
+    line-height: calc(1rem + 12vw);
+    display: inline;
+    font-family: 'MainFont';
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-size:calc(1rem + 10vw);
+}
+
+

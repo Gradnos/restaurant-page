@@ -13,6 +13,7 @@ module.exports = {
   },
   devtool: 'inline-source-map',
   devServer: {
+    watchFiles: ["src/*.html"],
     static: './dist',
   },
   plugins: [
