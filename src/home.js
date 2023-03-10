@@ -1,0 +1,3 @@
+export function home(){
+    return ' <div class="body"><div class="section-1 section"><div class="img location-img"></div><h2>Best Restaurant On The Island!</h2></div><div class="section-2 section reverse"><h2>Professional Staff, With Expert Skills!</h2><div class="img chef-img"></div></div><div class="section-3 section"><div class="img bus-img"></div><h2>Fast, Easy, Reliable Delivery!</h2></div></div>';
+}
