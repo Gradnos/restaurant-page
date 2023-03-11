@@ -1,5 +1,6 @@
 import './style.css';
 import { home } from './home';
+import { about } from './about';
 
 const content = document.querySelector("#content");
 //content.innerHTML = home();
