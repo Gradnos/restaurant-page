@@ -218,6 +218,132 @@ a:hover{
     background-color: rgba(0, 50, 124, 1);
 }
 
+.menu-item{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: min(400px, 100%);
+    transition-duration: 0.2s;
+}
+
+.menu-item:hover{
+    scale: 1.05;
+    transform: rotate(10deg);
+
+
+}
+
+.burger-img{
+    background: transparent url('./menuItems/burger.png');
+    position: relative;
+    background-repeat: no-repeat;
+    width: min(300px, 100%);
+    aspect-ratio: 1/1;
+    background-size: cover;
+    z-index: 1;
+}
+
+.pizza-img{
+    background: transparent url('./menuItems/pizza.png');
+    position: relative;
+    background-repeat: no-repeat;
+    width: min(300px, 100%);
+    aspect-ratio: 1/1;
+    background-size: cover;
+    z-index: 1;
+}
+
+.ice-cream-img{
+    background: transparent url('./menuItems/ice-cream.png');
+    position: relative;
+    background-repeat: no-repeat;
+    width: min(300px, 100%);
+    aspect-ratio: 1/1;
+    background-size: cover;
+    z-index: 1;
+}
+
+.fish-orange-img{
+    background: transparent url('./menuItems/fish-orange.png');
+    position: relative;
+    background-repeat: no-repeat;
+    width: min(300px, 100%);
+    aspect-ratio: 1/1;
+    background-size: cover;
+    z-index: 1;
+}
+
+.fish-blue-img{
+    background: transparent url('./menuItems/fish-blue.png');
+    position: relative;
+    background-repeat: no-repeat;
+    width: min(300px, 100%);
+    aspect-ratio: 1/1;
+    background-size: cover;
+    z-index: 1;
+}
+
+.banana-img{
+    background: transparent url('./menuItems/banana.png');
+    position: relative;
+    background-repeat: no-repeat;
+    width: min(300px, 100%);
+    aspect-ratio: 1/1;
+    background-size: cover;
+    z-index: 1;
+}
+
+.chug-img{
+    background: transparent url('./menuItems/chug.png');
+    position: relative;
+    background-repeat: no-repeat;
+    width: min(300px, 100%);
+    aspect-ratio: 1/1;
+    background-size: cover;
+    z-index: 1;
+}
+
+.slurp-img{
+    background: transparent url('./menuItems/slurp-juice.png');
+    position: relative;
+    background-repeat: no-repeat;
+    width: min(300px, 100%);
+    aspect-ratio: 1/1;
+    background-size: cover;
+    z-index: 1;
+}
+
+.price{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'MainFont';
+    color: #fffb16;
+    font-size: calc(2rem + 3vw);
+    z-index: 2;
+    text-shadow: 2px 2px rgba(0, 50, 124, 1);
+}
+.menu-item-bg{
+    z-index: 3;
+    width: min(300px, 100%);
+    height: 100%;
+    position:absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.menu{
+    padding: calc(20px + 5vw);
+    gap : 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
 
 @media (max-width: 1000px) {
 
