@@ -1,9 +1,10 @@
 import './style.css';
 import { home } from './home';
 import { about } from './about';
+import { menu } from './menu';
 
 const content = document.querySelector("#content");
-//content.innerHTML = home();
+content.innerHTML = home();
 
 
 let navButtons = document.querySelectorAll(".nav-button");
